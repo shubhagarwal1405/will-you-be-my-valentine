@@ -25,7 +25,7 @@ no_button.addEventListener('click', () => {
     // Change banner source
     let banner = document.getElementById('banner');
     if (clicks === 0) {
-        banner.src = "././images/no.gif";
+        banner.src = "/public/images/no.gif";
         refreshBanner();
     }
     clicks++;
